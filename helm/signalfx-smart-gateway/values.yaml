@@ -157,3 +157,6 @@ service:
       protocol: TCP
       # service.ports[0].nameSuffix -- A suffix to apply to the port name
       nameSuffix: sfx-listener
+
+ingress:
+  enabled: false
